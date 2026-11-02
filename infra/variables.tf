@@ -20,7 +20,25 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  description = "Senha do banco de dados RDS"
+  description = "Senha do banco de dados RDS do monolito (mechanical-hub)"
+  type        = string
+  sensitive   = true
+}
+
+variable "core_service_db_password" {
+  description = "Senha do banco de dados RDS do core-service"
+  type        = string
+  sensitive   = true
+}
+
+variable "stock_service_db_password" {
+  description = "Senha do banco de dados RDS do stock-service"
+  type        = string
+  sensitive   = true
+}
+
+variable "billing_service_db_password" {
+  description = "Senha do banco de dados RDS do billing-service"
   type        = string
   sensitive   = true
 }
