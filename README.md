@@ -29,7 +29,7 @@ group `rds` via data source). Ordem completa: infra-base → infra-k8s →
 ordem entre eles é uma convenção do projeto, não uma dependência técnica. Para
 derrubar, ordem inversa.
 
-![Ordem de apply e destroy entre os repositórios](docs/desenhos/mechanical-hub-apply-destroy-repos-fase-03.jpg)
+![Ordem de apply e destroy entre os repositórios](docs/desenhos/mechanical-hub-apply-destroy-repos-fase-04.png)
 
 1. Configurar no repositório os secrets `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`,
    `AWS_SESSION_TOKEN`, `DB_PASSWORD` (senha do banco do monolito) e, desde a
@@ -147,6 +147,7 @@ mechanical-hub-infra-database/
 │   └── desenhos/
 │       ├── mechanical-hub-infraestrutura-fase-03.jpg
 │       ├── mechanical-hub-apply-destroy-repos-fase-03.jpg
+│       ├── mechanical-hub-apply-destroy-repos-fase-04.png
 │       └── diagrama-entidade-relacionamento-fase-03.png
 ├── infra/
 │   ├── providers.tf
