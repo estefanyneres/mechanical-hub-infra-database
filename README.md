@@ -135,30 +135,3 @@ repositório — não duplicado aqui.
   Lê `infra/pipeline.conf` e aplica ou destrói o Terraform conforme `DESTROY`,
   passando `db_password`, `core_service_db_password`, `stock_service_db_password`
   e `billing_service_db_password` via `-var`.
-
-## Estrutura
-
-```
-mechanical-hub-infra-database/
-├── .github/workflows/
-│   ├── pipeline-infra-feature.yml
-│   └── pipeline-infra-main.yml
-├── docs/
-│   └── desenhos/
-│       ├── mechanical-hub-infraestrutura-fase-03.jpg
-│       ├── mechanical-hub-infraestrutura-fase-04.jpg
-│       ├── mechanical-hub-apply-destroy-repos-fase-03.jpg
-│       ├── mechanical-hub-apply-destroy-repos-fase-04.png
-│       └── diagrama-entidade-relacionamento-fase-03.png
-├── infra/
-│   ├── providers.tf
-│   ├── variables.tf
-│   ├── data.tf
-│   ├── rds.tf
-│   ├── rds-microservices.tf
-│   ├── dynamodb.tf
-│   ├── outputs.tf
-│   └── pipeline.conf
-├── .gitignore
-└── README.md
-```
