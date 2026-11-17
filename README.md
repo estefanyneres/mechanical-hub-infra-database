@@ -18,7 +18,7 @@ aqui, independente de ser exclusivo de um serviço.
 
 ## Diagrama de arquitetura
 
-![Infraestrutura AWS - Fase 3](docs/desenhos/mechanical-hub-infraestrutura-fase-03.jpg)
+![Infraestrutura AWS - Fase 3](docs/desenhos/mechanical-hub-infraestrutura-fase-04.jpg)
 
 ## Passos para execução e deploy
 
@@ -146,6 +146,7 @@ mechanical-hub-infra-database/
 ├── docs/
 │   └── desenhos/
 │       ├── mechanical-hub-infraestrutura-fase-03.jpg
+│       ├── mechanical-hub-infraestrutura-fase-04.jpg
 │       ├── mechanical-hub-apply-destroy-repos-fase-03.jpg
 │       ├── mechanical-hub-apply-destroy-repos-fase-04.png
 │       └── diagrama-entidade-relacionamento-fase-03.png
